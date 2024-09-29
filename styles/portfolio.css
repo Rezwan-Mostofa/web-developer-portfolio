@@ -152,7 +152,22 @@ main section{
      color: #474747;
      font-size: 30px;
      font-weight: 700;
+     margin-bottom: 10px;
 }
-.resume-column{
+.resume-container{
     display: flex;
+    gap: 50px;
+}
+.resume-item-description{
+    color: #757575;
+}
+.resume-item-institute{
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
