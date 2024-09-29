@@ -63,10 +63,12 @@ nav a{
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    background-image: url(/images/header_bg.png);
+    background-image: url(/images/header_bg.png) ;
     background-repeat: no-repeat;
     background-position: bottom right;
+    
 }
+
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -102,7 +104,7 @@ main{
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
-    margin: 130px 0px;
+    margin: 130px auto;
 
 }
 .section-title{
@@ -116,12 +118,17 @@ main{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    margin: 18px 150px 18px 150px;
+   
 
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    
 }
+
+
 .info-title{
     text-align: center;
 }
@@ -195,5 +202,5 @@ footer{
     border: 0;
 }
 .social-links{
-    margin-right: 25px;
+    margin: 0px 15px 0px 15px;
 }
