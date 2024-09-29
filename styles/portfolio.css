@@ -125,10 +125,34 @@ main{
 .info-title{
     text-align: center;
 }
+/* skills related styles */
 #what-i-do-description{
     padding: 30px 150px;
 }
 .skills-container{
     display: flex;
-    text-align: center;
+    gap: 24px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px ;
+
+}
+.skill-description{
+    color: #757575;
+}
+main section{
+    margin-top: 130px;
+}
+/* resume section style  */
+.resume-column-title{
+     color: #474747;
+     font-size: 30px;
+     font-weight: 700;
+}
+.resume-column{
+    display: flex;
 }
