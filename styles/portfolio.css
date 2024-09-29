@@ -22,10 +22,13 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    padding: 15px 35px;
 }
 /* nav related style  */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-title{
     color: #181818;
@@ -34,10 +37,16 @@ nav{
 }
 nav > ul{
     display: flex;
+    text-align: center;
+    
+    
 }
 nav li{
     list-style: none;
     margin-right: 50px;
+    
+    
+    
 }
 nav a{
     text-decoration: none;
