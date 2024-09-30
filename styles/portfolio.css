@@ -191,6 +191,7 @@ footer{
 }
 .footer-column{
     width: 50%;
+    
 }
 .contact input, textarea{
     display: block;
@@ -200,7 +201,10 @@ footer{
     border-radius: 5px;
     background: #fff;
     border: 0;
+    
+    
 }
 .social-links{
-    margin: 0px 15px 0px 15px;
+    margin: 0px auto;
+    
 }
