@@ -208,3 +208,34 @@ footer{
     margin: 0px auto;
     
 }
+
+
+/* media query styles */
+/* for mobile phone  */
+
+@media screen and (max-width:576px) {
+    nav,
+    .banner,
+    .about-info-container,
+    .skills-container
+    {
+        flex-direction: column;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    .section-description{
+        margin: 10px 1px;
+    }
+    footer{
+        padding: 0px;
+        gap: 20px;
+    }
+    nav > ul{
+       flex-wrap: wrap;
+       padding-left: 0px;
+    }
+    #what-i-do-description{
+        padding: 50px 30px;
+    }
+}
